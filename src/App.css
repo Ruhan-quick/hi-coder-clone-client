@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.cmhw {
+  font-weight: 800;
+  color: white;
+}
+.cmh {
+  font-weight: 800;
+}

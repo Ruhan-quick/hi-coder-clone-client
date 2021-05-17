@@ -1,0 +1,48 @@
+.tbh1 {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .tbody-text {
+    padding-left: 40px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .tbody-text {
+    padding-left: 0px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  /*Small smartphones [325px -> 425px]*/
+}
+
+/* ---------------Shape style here ---------*/
+.custom-shape-divider-bottom-1621146778 {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1621146778 svg {
+  position: relative;
+  display: block;
+  width: calc(137% + 1.3px);
+  height: 62px;
+}
+
+.custom-shape-divider-bottom-1621146778 .shape-fill {
+  fill: #094ec3;
+}
+
+/*----------inItem---------*/
+.in-item {
+  -webkit-transform: scaleY(-1) !important;
+  transform: scaleY(-1) !important;
+}

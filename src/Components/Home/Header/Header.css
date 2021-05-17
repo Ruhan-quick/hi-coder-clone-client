@@ -1,0 +1,40 @@
+.header-style {
+  background-image: url("https://images.westend61.de/0001109694pw/man-using-laptop-and-desktop-in-office-CUF46732.jpg");
+  background-size: cover;
+  min-height: 100vh;
+}
+.header-text {
+  min-height: 100vh;
+}
+.ht {
+  font-size: 50px;
+  font-weight: 800;
+}
+.button-style {
+  font-size: large;
+}
+.header-bottom {
+  background-color: rgb(5, 5, 141);
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+@media only screen and (max-width: 1200px) {
+  /*Tablets [601px -> 1200px]*/
+}
+@media only screen and (max-width: 600px) {
+  /*Big smartphones [426px -> 600px]*/
+  .header-style {
+    min-height: 60vh;
+  }
+  .header-text {
+    min-height: 60vh;
+  }
+  .ht {
+    font-size: 30px;
+    font-weight: 700;
+  }
+}
+@media only screen and (max-width: 425px) {
+  /*Small smartphones [325px -> 425px]*/
+}
